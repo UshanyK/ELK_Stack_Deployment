@@ -3,15 +3,13 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/Ushany_Network_Diagram.png)
+![](Images/Ushany_Network_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - install-elk.yml
-  - filebeat-config.yml
-  - install-filebeat.yml
-  - metric-config.yml
-  - install-metricbeat.yml
+  - [install-elk.yml](https://github.com/UshanyK/ELK_Stack_Deployment/blob/main/Ansible/install-elk.yml)
+  - [filebeat-playbook.yml] (https://github.com/UshanyK/ELK_Stack_Deployment/blob/main/Ansible/filebeat-playbook.yml)
+  - [install-metricbeat.yml] (https://github.com/UshanyK/ELK_Stack_Deployment/blob/main/Ansible/Metricbeat-Playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -81,7 +79,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/docker_ps.png)
+![](Images/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
