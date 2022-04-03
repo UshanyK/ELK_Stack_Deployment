@@ -113,5 +113,3 @@ Metricbeat
 - Copy the /etc/ansible/files/metricbeat-config.yml file to /etc/metricbeat/metricbeat.yml
 - Update the /etc/ansible/roles/install-metricbeat.yml file to include "hosts:webservers" in order to run the playbook on the VM's (Web-1 and Web-2) that are to be monitored by ELK 
 - Run the playbook, and navigate to http://20.239.58.28:5601/app/kibana to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
